@@ -9,6 +9,8 @@ $output = array();
 // Find out where we're running from
 $webroot = $_SERVER['DOCUMENT_ROOT'] . 'worlds';
 
+echo $webroot;
+
 // Execute the shell script
 exec("$webroot/deploy/pull.sh 2>&1", $output);
 
