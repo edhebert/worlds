@@ -7,7 +7,7 @@ ini_set('display_errors', true);
 $output = array();
 
 // Find out where we're running from
-$webroot = $_SERVER['DOCUMENT_ROOT'] . 'worlds';
+$webroot = $_SERVER['DOCUMENT_ROOT'] . '/worlds';
 
 echo $webroot;
 
