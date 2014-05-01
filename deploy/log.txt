@@ -1,0 +1,237 @@
+================ 2013-12-19 06:56:17 ===============
+/home/27951/domains/p4.edhebert.com/html/deploy/pull.sh: line 4: cd: /nfs/c02/h14/mnt/27951/domains/p4.edhebert.com/html: No such file or directory
+From https://github.com/edhebert/p4.edhebert.com
+ * branch            master     -> FETCH_HEAD
+Updating c3ea70f..3a44e89
+Fast-forward
+ views/_v_template.php |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+
+================ 2013-12-18 08:19:09 ===============
+/home/27951/domains/p4.edhebert.com/html/deploy/pull.sh: line 4: cd: /nfs/c02/h14/mnt/27951/domains/p4.edhebert.com/html: No such file or directory
+From https://github.com/edhebert/p4.edhebert.com
+ * branch            master     -> FETCH_HEAD
+Updating b4b6927..c3ea70f
+Fast-forward
+ css/rhyme.css |    1 +
+ 1 files changed, 1 insertions(+), 0 deletions(-)
+
+
+================ 2013-12-16 18:48:00 ===============
+/home/27951/domains/p4.edhebert.com/html/deploy/pull.sh: line 4: cd: /nfs/c02/h14/mnt/27951/domains/p4.edhebert.com/html: No such file or directory
+From https://github.com/edhebert/p4.edhebert.com
+ * branch            master     -> FETCH_HEAD
+Updating 02869b2..b4b6927
+Fast-forward
+ README.md                                   |   17 +++++++++++++----
+ db27951_p4_edhebert_com.sql => database.sql |    0
+ 2 files changed, 13 insertions(+), 4 deletions(-)
+ rename db27951_p4_edhebert_com.sql => database.sql (100%)
+
+
+================ 2013-12-16 13:54:49 ===============
+/home/27951/domains/p4.edhebert.com/html/deploy/pull.sh: line 4: cd: /nfs/c02/h14/mnt/27951/domains/p4.edhebert.com/html: No such file or directory
+From https://github.com/edhebert/p4.edhebert.com
+ * branch            master     -> FETCH_HEAD
+Updating f257739..02869b2
+Fast-forward
+ README.md |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+
+================ 2013-12-16 13:50:04 ===============
+/home/27951/domains/p4.edhebert.com/html/deploy/pull.sh: line 4: cd: /nfs/c02/h14/mnt/27951/domains/p4.edhebert.com/html: No such file or directory
+From https://github.com/edhebert/p4.edhebert.com
+ * branch            master     -> FETCH_HEAD
+Updating e3ce9ae..f257739
+Fast-forward
+ README.md   |   18 +++++++++++-------
+ js/rhyme.js |    1 -
+ js/site.js  |    2 --
+ 3 files changed, 11 insertions(+), 10 deletions(-)
+
+
+================ 2013-12-16 13:31:44 ===============
+/home/27951/domains/p4.edhebert.com/html/deploy/pull.sh: line 4: cd: /nfs/c02/h14/mnt/27951/domains/p4.edhebert.com/html: No such file or directory
+From https://github.com/edhebert/p4.edhebert.com
+ * branch            master     -> FETCH_HEAD
+Updating 525057a..e3ce9ae
+Fast-forward
+ css/rhyme.css           |    4 ++++
+ views/v_rhyme_index.php |    4 +++-
+ 2 files changed, 7 insertions(+), 1 deletions(-)
+
+
+================ 2013-12-16 12:52:57 ===============
+/home/27951/domains/p4.edhebert.com/html/deploy/pull.sh: line 4: cd: /nfs/c02/h14/mnt/27951/domains/p4.edhebert.com/html: No such file or directory
+From https://github.com/edhebert/p4.edhebert.com
+ * branch            master     -> FETCH_HEAD
+Updating 4173f4c..525057a
+Fast-forward
+ README.md |   25 ++++++++++++++++++-------
+ 1 files changed, 18 insertions(+), 7 deletions(-)
+
+
+================ 2013-12-16 12:34:17 ===============
+/home/27951/domains/p4.edhebert.com/html/deploy/pull.sh: line 4: cd: /nfs/c02/h14/mnt/27951/domains/p4.edhebert.com/html: No such file or directory
+From https://github.com/edhebert/p4.edhebert.com
+ * branch            master     -> FETCH_HEAD
+Updating faad331..4173f4c
+Fast-forward
+ README.md                   |   43 ++++++++++++++++++++++++++++++++-
+ db27951_p4_edhebert_com.sql |   55 +++++++++++++++++++++++++++++++++++++++++++
+ js/rhyme.js                 |   13 +---------
+ 3 files changed, 97 insertions(+), 14 deletions(-)
+ create mode 100644 db27951_p4_edhebert_com.sql
+
+
+================ 2013-12-16 08:51:02 ===============
+/home/27951/domains/p4.edhebert.com/html/deploy/pull.sh: line 4: cd: /nfs/c02/h14/mnt/27951/domains/p4.edhebert.com/html: No such file or directory
+From https://github.com/edhebert/p4.edhebert.com
+ * branch            master     -> FETCH_HEAD
+Updating 81d9736..faad331
+Fast-forward
+ views/_v_template.php |    6 +++---
+ 1 files changed, 3 insertions(+), 3 deletions(-)
+
+
+================ 2013-12-16 08:48:42 ===============
+/home/27951/domains/p4.edhebert.com/html/deploy/pull.sh: line 4: cd: /nfs/c02/h14/mnt/27951/domains/p4.edhebert.com/html: No such file or directory
+From https://github.com/edhebert/p4.edhebert.com
+ * branch            master     -> FETCH_HEAD
+Updating de7f0b1..81d9736
+Fast-forward
+ views/_v_template.php |    6 +++---
+ 1 files changed, 3 insertions(+), 3 deletions(-)
+
+
+================ 2013-12-16 08:42:18 ===============
+/home/27951/domains/p4.edhebert.com/html/deploy/pull.sh: line 4: cd: /nfs/c02/h14/mnt/27951/domains/p4.edhebert.com/html: No such file or directory
+From https://github.com/edhebert/p4.edhebert.com
+ * branch            master     -> FETCH_HEAD
+Updating 7a1162e..de7f0b1
+Fast-forward
+ js/rhyme.js |    5 ++++-
+ js/site.js  |    2 +-
+ 2 files changed, 5 insertions(+), 2 deletions(-)
+
+
+================ 2013-12-16 07:58:27 ===============
+/home/27951/domains/p4.edhebert.com/html/deploy/pull.sh: line 4: cd: /nfs/c02/h14/mnt/27951/domains/p4.edhebert.com/html: No such file or directory
+From https://github.com/edhebert/p4.edhebert.com
+ * branch            master     -> FETCH_HEAD
+Updating 51248fe..7a1162e
+Fast-forward
+ js/site.js |    2 +-
+ 1 files changed, 1 insertions(+), 1 deletions(-)
+
+
+================ 2013-12-16 07:49:10 ===============
+/home/27951/domains/p4.edhebert.com/html/deploy/pull.sh: line 4: cd: /nfs/c02/h14/mnt/27951/domains/p4.edhebert.com/html: No such file or directory
+From https://github.com/edhebert/p4.edhebert.com
+ * branch            master     -> FETCH_HEAD
+Updating 6b54d39..51248fe
+Fast-forward
+ js/site.js |   59 ++++++++++++++++++++++++++++++++++++-----------------------
+ 1 files changed, 36 insertions(+), 23 deletions(-)
+
+
+================ 2013-12-16 07:38:56 ===============
+/home/27951/domains/p4.edhebert.com/html/deploy/pull.sh: line 4: cd: /nfs/c02/h14/mnt/27951/domains/p4.edhebert.com/html: No such file or directory
+From https://github.com/edhebert/p4.edhebert.com
+ * branch            master     -> FETCH_HEAD
+Updating 089f2db..6b54d39
+Fast-forward
+ controllers/c_users.php |    8 ++++++++
+ js/site.js              |   44 ++++++++++++++++++++++++++++++++++++++++++--
+ views/_v_template.php   |   21 ++-------------------
+ 3 files changed, 52 insertions(+), 21 deletions(-)
+
+
+================ 2013-12-16 06:34:59 ===============
+/home/27951/domains/p4.edhebert.com/html/deploy/pull.sh: line 4: cd: /nfs/c02/h14/mnt/27951/domains/p4.edhebert.com/html: No such file or directory
+From https://github.com/edhebert/p4.edhebert.com
+ * branch            master     -> FETCH_HEAD
+Updating 9c9aafd..089f2db
+Fast-forward
+ css/styles.css        |   14 ++++++++++++++
+ js/site.js            |    9 +++++++++
+ views/_v_template.php |   36 ++++++++++++++++++++++++++++++++++--
+ 3 files changed, 57 insertions(+), 2 deletions(-)
+
+
+================ 2013-12-14 18:45:40 ===============
+/home/27951/domains/p4.edhebert.com/html/deploy/pull.sh: line 4: cd: /nfs/c02/h14/mnt/27951/domains/p4.edhebert.com/html: No such file or directory
+From https://github.com/edhebert/p4.edhebert.com
+ * branch            master     -> FETCH_HEAD
+Updating 8e2ee9c..9c9aafd
+Fast-forward
+ controllers/c_users.php |  370 ++++++++++++++++----------------
+ css/rhyme.css           |  206 +++++++++---------
+ css/styles.css          |  490 +++++++++++++++++++++---------------------
+ js/rhyme-new.js         |  552 +++++++++++++++++++++++-----------------------
+ js/site.js              |  276 ++++++++++++------------
+ views/v_index_index.php |   48 ++--
+ 6 files changed, 974 insertions(+), 968 deletions(-)
+
+
+================ 2013-12-14 17:39:48 ===============
+/home/27951/domains/p4.edhebert.com/html/deploy/pull.sh: line 4: cd: /nfs/c02/h14/mnt/27951/domains/p4.edhebert.com/html: No such file or directory
+From https://github.com/edhebert/p4.edhebert.com
+ * branch            master     -> FETCH_HEAD
+Updating b3779b3..8e2ee9c
+Fast-forward
+ js/homepage.js |   10 ++--------
+ 1 files changed, 2 insertions(+), 8 deletions(-)
+
+
+================ 2013-12-14 17:23:51 ===============
+/home/27951/domains/p4.edhebert.com/html/deploy/pull.sh: line 4: cd: /nfs/c02/h14/mnt/27951/domains/p4.edhebert.com/html: No such file or directory
+From https://github.com/edhebert/p4.edhebert.com
+ * branch            master     -> FETCH_HEAD
+Updating 8870515..b3779b3
+Fast-forward
+ css/rhyme.css   |    2 +-
+ js/rhyme-new.js |  276 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ js/rhyme.js     |   35 +++----
+ 3 files changed, 292 insertions(+), 21 deletions(-)
+ create mode 100644 js/rhyme-new.js
+
+
+================ 2013-12-14 15:23:47 ===============
+/home/27951/domains/p4.edhebert.com/html/deploy/pull.sh: line 4: cd: /nfs/c02/h14/mnt/27951/domains/p4.edhebert.com/html: No such file or directory
+From https://github.com/edhebert/p4.edhebert.com
+ * branch            master     -> FETCH_HEAD
+Updating 60c0c3a..8870515
+Fast-forward
+ controllers/c_users.php |   20 ++++++++++++++++++++
+ js/rhyme.js             |   26 +++++++++++++++++++++++---
+ 2 files changed, 43 insertions(+), 3 deletions(-)
+
+
+================ 2013-12-14 10:15:49 ===============
+/home/27951/domains/p4.edhebert.com/html/deploy/pull.sh: line 4: cd: /nfs/c02/h14/mnt/27951/domains/p4.edhebert.com/html: No such file or directory
+From https://github.com/edhebert/p4.edhebert.com
+ * branch            master     -> FETCH_HEAD
+Updating 21622c2..60c0c3a
+Fast-forward
+ controllers/c_users.php |   28 ++++++++++------------------
+ 1 files changed, 10 insertions(+), 18 deletions(-)
+
+
+================ 2013-12-14 10:03:03 ===============
+/home/27951/domains/p4.edhebert.com/html/deploy/pull.sh: line 4: cd: /nfs/c02/h14/mnt/27951/domains/p4.edhebert.com/html: No such file or directory
+From https://github.com/edhebert/p4.edhebert.com
+ * branch            master     -> FETCH_HEAD
+Updating ad8c690..21622c2
+Fast-forward
+ controllers/c_users.php |   37 ++++++++++++-----------------
+ js/homepage.js          |    6 +++++
+ js/rhyme.js             |    9 -------
+ js/site.js              |   58 +++++++++++++++++++++++++++++++++++++---------
+ views/_v_template.php   |    5 ++-
+ 5 files changed, 70 insertions(+), 45 deletions(-)
+
+
+===============
