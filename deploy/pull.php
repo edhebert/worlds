@@ -7,7 +7,7 @@ ini_set('display_errors', true);
 $output = array();
 
 // Find out where we're running from
-$webroot = $_SERVER['DOCUMENT_ROOT'];
+$webroot = $_SERVER['DOCUMENT_ROOT'] . 'worlds';
 
 // Execute the shell script
 exec("$webroot/deploy/pull.sh 2>&1", $output);
