@@ -6,6 +6,7 @@ body
     background-position:center; 
     background-size: cover;
     font-family: "metallophile-sp8",sans-serif;
+    color: white;
 }
 
 
@@ -13,6 +14,15 @@ iframe {
     height:321px;
     width:570px;
     border: 0;
+}
+
+/* fade all links */
+a{
+    transition: .3s;
+    -o-transition: .3s;
+    -ms-transition: .3s;
+    -moz-transition: .3s;
+    -webkit-transition: .3s;
 }
 
 #vimeoiframeId {
@@ -32,34 +42,32 @@ iframe {
 
 .circle-big {
     position: relative;
-    height:180px;
-    width:180px;
-    padding: 200px;
-    border-radius: 50% 50%;
     margin: auto;
 }
 
 .circle-big:before {
     position: absolute;
-    height: 180px;
-    width: 180px;
-    border-radius: 90px;
-    background: transparent;
     content: "";
 }
 
 .circle {
+    opacity: 0.8;
     text-align: center;
     border-radius: 50%;
     width: 100px;
     height: 100px;
-    background-color: #00ADEF;
+    background-image:url('../img/globe.png');
     display: block;
     position: absolute;
-    overflow: hidden;
+    white-space: nowrap;
+    /*overflow: hidden;*/
     top: 50%;
     left: 50%;
-    margin: -15px;
+    margin: -45px; /*offset the orbiting circles to the center of the middle sphere*/
+}
+
+.circle:hover {
+    opacity: 1.0;
 }
 
 /* position the icons around the center of the video */
