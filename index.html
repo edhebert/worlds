@@ -1,124 +1,30 @@
-
 <!DOCTYPE HTML>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>Worlds Vimeo Player</title>
-    
-    <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+    <head>
+        <meta charset="UTF-8">
+        <title>Worlds Within Worlds - Harvard EXPO-48 Final - Mithila Fox and Ed Hebert</title>
+        
+        <!-- typekit fonts -->
+        <script type="text/javascript" src="//use.typekit.net/cfg6rpm.js"></script>
+        <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
+        <link href="css/styles.css" rel="stylesheet">
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="js/scripts.js" type='text/javascript'></script>
+    </head>
 
-<script type='text/javascript'>//<![CDATA[ 
-$(function(){
-    var f = $('#vimeoiframeId iframe'),
-    url = f.attr('src').split('?')[0],
-    status = $('.status'),
-    action;
-
-
-// Listen for messages from the player
-if (window.addEventListener){
-    window.addEventListener('message', onMessageReceived, false);
-}
-else {
-    window.attachEvent('onmessage', onMessageReceived, false);
-}
-
-// Handle messages received from the player
-function onMessageReceived(e) {
-    var data = JSON.parse(e.data);
-
-    switch (data.event) {
-        case 'ready':
-        onReady();
-        break;
-
-        case 'finish':
-        onFinish();
-        break;
-    }
-}
-
-// Call the API when a button is pressed
-$('#playlinksId a').on('click', function(e) {
-
-    // prevent deafault click behavior
-    e.preventDefault();
-
-    // get ID and URL of the video to be shown
-    var currentIframeId = $(this).attr('id');
-    var currentSrc = $(this).attr('src');
-
-    //grab just the numeric video ID from the Vimeo URL
-    var currentvideoId = currentSrc.substring(currentSrc.lastIndexOf('/') + 1);
-
-    f.attr('id', currentIframeId);
-    f.attr('src', 'http://player.vimeo.com/video/' + currentvideoId + '?api=1&player_id='+ currentIframeId);
-
-    action = 'play';
-});
-
-$('#playId').on('click', function() {
-    post('play');
-});
-
-$('#pauseId').on('click', function() {
-    post('pause');
-});
-
-
-// Helper function for sending a message to the player
-function post(action, value) {
-    var data = { method: action };
-
-    if (value) {
-        data.value = value;
-    }
-
-    f[0].contentWindow.postMessage(JSON.stringify(data), url);
-}
-
-function onReady() {
-    status.text('ready');
-
-    // if we clicked a video link, start playing it
-    if(action){
-        post(action);
-    }
-}
-
-function onPause() {
-    status.text('paused');
-}
-
-function onFinish() {
-    status.text('finished');
-}
-
-function onPlayProgress(data) {
-    status.text(data.seconds + 's played');
-}
-
-});//]]>  
-
-</script>
-
-
-</head>
-<body>
-    <div id="vimeoiframeId">
-        <iframe id="video1" src="http://player.vimeo.com/video/92893542?api=1&player_id=video1" width="570" height="321" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-    </div>
-
-
-    <p id="playlinksId">
-            <a id="video1" href="#" src="https://vimeo.com/92893542">Silent Spring</a> |  
-            <a id="video2" href="#" src="http://vimeo.com/92916523">Caxton</a> |  
-            <a id="video3" href="#" src="http://vimeo.com/93052532">With One Wheel Gone Wrong</a> |
-            <a id="video4" href="#" src="https://vimeo.com/93088696">Later Life</a> 
-            
-    </p>    
-</body>
-
-
+    <body>
+        <div class="circle-big">
+            <h1>Worlds Within Worlds</h1>
+            <a id="video1" class="circle one" href="#" src="https://vimeo.com/92893542"><span>Silent Spring</span></a>
+            <a id="video2" class="circle two" href="#" src="http://vimeo.com/92916523"><span>Caxton</span></a>
+            <a id="video3" class="circle three" href="#" src="http://vimeo.com/93052532"><span>One Wheel Wrong</span></a>
+            <a id="video4" class="circle four"href="#" src="https://vimeo.com/93088696"><span>Later Life</span></a> 
+            <a id="video5" class="circle five"href="#" src="https://vimeo.com/93088696"><span>Later Life</span></a> 
+            <a id="video6" class="circle six"href="#" src="https://vimeo.com/93088696"><span>Later Life</span></a> 
+        </div> 
+        <div id="vimeoiframeId">
+            <iframe></iframe> 
+        </div>    
+    </body>
 </html>
