@@ -1,0 +1,103 @@
+body
+{ 
+    background-image:url('../img/bg.jpg');
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center; 
+    background-size: cover;
+    font-family: "metallophile-sp8",sans-serif;
+}
+
+
+iframe {
+    height:321px;
+    width:570px;
+    border: 0;
+}
+
+#vimeoiframeId {
+    position: relative;
+    height:321px;
+    width:570px;
+    padding: 200px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+#vimeoiframeId:before {
+    position: absolute;
+    height:321px;
+    width:570px;
+}
+
+.circle-big {
+    position: relative;
+    height:180px;
+    width:180px;
+    padding: 200px;
+    border-radius: 50% 50%;
+    margin: auto;
+}
+
+.circle-big:before {
+    position: absolute;
+    height: 180px;
+    width: 180px;
+    border-radius: 90px;
+    background: transparent;
+    content: "";
+}
+
+.circle {
+    text-align: center;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #00ADEF;
+    display: block;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    margin: -15px;
+}
+
+/* position the icons around the center of the video */
+.one { 
+    transform: rotate(30deg) translate(250px) rotate(-30deg); 
+    -webkit-transform: rotate(30deg) translate(250px) rotate(-30deg);
+    -moz-transform: rotate(30deg) translate(250px) rotate(-30deg);
+}
+
+.two { 
+    transform: rotate(90deg) translate(250px) rotate(-90deg); 
+    -webkit-transform: rotate(90deg) translate(250px) rotate(-90deg);
+    -moz-transform: rotate(90deg) translate(250px) rotate(-90deg);
+
+}
+
+.three { 
+    transform: rotate(150deg) translate(250px) rotate(-150deg); 
+    -webkit-transform: rotate(150deg) translate(250px) rotate(-150deg);
+    -moz-transform: rotate(150deg) translate(250px) rotate(-150deg);
+
+}
+.four { 
+    transform: rotate(210deg) translate(250px) rotate(-210deg); 
+    -webkit-transform: rotate(210deg) translate(250px) rotate(-210deg);
+    -moz-transform: rotate(210deg) translate(250px) rotate(-210deg);
+}
+
+.five { 
+    transform: rotate(270deg) translate(250px) rotate(-270deg); 
+    -webkit-transform: rotate(270deg) translate(250px) rotate(-270deg);
+    -moz-transform: rotate(270deg) translate(250px) rotate(-270deg);
+
+}
+
+.six { 
+    transform: rotate(330deg) translate(250px) rotate(-330deg); 
+    -webkit-transform: rotate(330deg) translate(250px) rotate(-330deg);
+    -moz-transform: rotate(330deg) translate(250px) rotate(-330deg);
+
+}
