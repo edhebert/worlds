@@ -94,7 +94,7 @@ a:hover span {
     transform: rotate(90deg) translate(250px) rotate(-90deg); 
     -webkit-transform: rotate(90deg) translate(250px) rotate(-90deg);
     -moz-transform: rotate(90deg) translate(250px) rotate(-90deg);
-    background: url('../img/wheel2.png') center no-repeat;
+    background: url('../img/caxton.png') center no-repeat;
 
 }
 
@@ -102,21 +102,21 @@ a:hover span {
     transform: rotate(150deg) translate(250px) rotate(-150deg); 
     -webkit-transform: rotate(150deg) translate(250px) rotate(-150deg);
     -moz-transform: rotate(150deg) translate(250px) rotate(-150deg);
-    background: url('../img/carson.png') center no-repeat;
+    background: url('../img/wheel2.png') center no-repeat;
 
 }
 .four { 
     transform: rotate(210deg) translate(250px) rotate(-210deg); 
     -webkit-transform: rotate(210deg) translate(250px) rotate(-210deg);
     -moz-transform: rotate(210deg) translate(250px) rotate(-210deg);
-    background: url('../img/carson.png') center no-repeat;
+    background: url('../img/rosetti.png') center no-repeat;
 }
 
 .five { 
     transform: rotate(270deg) translate(250px) rotate(-270deg); 
     -webkit-transform: rotate(270deg) translate(250px) rotate(-270deg);
     -moz-transform: rotate(270deg) translate(250px) rotate(-270deg);
-    background: url('../img/carson.png') center no-repeat;
+    background: url('../img/globe2.png') center no-repeat;
 
 }
 
@@ -124,6 +124,6 @@ a:hover span {
     transform: rotate(330deg) translate(250px) rotate(-330deg); 
     -webkit-transform: rotate(330deg) translate(250px) rotate(-330deg);
     -moz-transform: rotate(330deg) translate(250px) rotate(-330deg);
-    background: url('../img/carson.png') center no-repeat;
+    background: url('../img/globe2.png') center no-repeat;
 
 }
