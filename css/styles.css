@@ -65,8 +65,8 @@ a:hover span {
 .circle {
     text-align: center;
     border-radius: 50%;
-    width: 130px;
-    height: 130px;
+    width: 180px;
+    height: 180px;
     background: url('../img/globe.png') center no-repeat;
     display: block;
     position: absolute;
