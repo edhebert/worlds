@@ -1,6 +1,6 @@
 body
 { 
-    background-image:url('../img/bg2.jpg');
+    background-image:url('../img/bg3.jpg');
     background-repeat:no-repeat;
     background-attachment:fixed;
     background-position:center; 
@@ -87,7 +87,7 @@ a:hover span {
     transform: rotate(30deg) translate(250px) rotate(-30deg); 
     -webkit-transform: rotate(30deg) translate(250px) rotate(-30deg);
     -moz-transform: rotate(30deg) translate(250px) rotate(-30deg);
-    background: url('../img/carsonglow.png') center no-repeat;
+    background: url('../img/carson.png') center no-repeat;
 }
 
 .two { 
