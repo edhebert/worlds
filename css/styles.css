@@ -74,7 +74,7 @@ a:hover span {
     /*overflow: hidden;*/
     top: 50%;
     left: 50%;
-    margin: -80px; /*offset the orbiting circles to the center of the middle sphere*/
+    margin: -85px; /*offset the orbiting circles to the center of the middle sphere*/
 }
 
 /*
@@ -87,7 +87,7 @@ a:hover span {
     transform: rotate(30deg) translate(250px) rotate(-30deg); 
     -webkit-transform: rotate(30deg) translate(250px) rotate(-30deg);
     -moz-transform: rotate(30deg) translate(250px) rotate(-30deg);
-    background: url('../img/carson.png') center no-repeat;
+    background: url('../img/carsonglow.png') center no-repeat;
 }
 
 .two { 
@@ -102,7 +102,7 @@ a:hover span {
     transform: rotate(150deg) translate(250px) rotate(-150deg); 
     -webkit-transform: rotate(150deg) translate(250px) rotate(-150deg);
     -moz-transform: rotate(150deg) translate(250px) rotate(-150deg);
-    background: url('../img/wheel.png') center no-repeat;
+    background: url('../img/wheel2.png') center no-repeat;
 
 }
 .four { 
