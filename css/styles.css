@@ -116,7 +116,7 @@ a:hover span {
     transform: rotate(270deg) translate(250px) rotate(-270deg); 
     -webkit-transform: rotate(270deg) translate(250px) rotate(-270deg);
     -moz-transform: rotate(270deg) translate(250px) rotate(-270deg);
-    background: url('../img/einstein.png') center no-repeat;
+    background: url('../img/einstein2.png') center no-repeat;
 
 }
 
