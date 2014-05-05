@@ -81,6 +81,17 @@ $(function() {
         action;
     });
 
+    // listen for escape key
+    $(window).keyup(function(e) {
+        if (e.keyCode == 27) { 
+
+            // this generates a vimeo api error
+            // Uncaught SecurityError: Blocked a frame with origin "http://localhost" from accessing a frame with origin "http://player.vimeo.com". Protocols, domains, and ports must match. 
+            // post('finish'); 
+            onFinish();
+        }
+    });
+
     // Helper function for sending a message to the player
     function post(action, value) {
         var data = { method: action };
@@ -88,7 +99,6 @@ $(function() {
         if (value) {
             data.value = value;
         }
-
         f[0].contentWindow.postMessage(JSON.stringify(data), url);
     }
 
@@ -96,6 +106,7 @@ $(function() {
 
         // listen for the finish of the video
         post('addEventListener', 'finish');
+        post('addEventListener', 'pause');
 
         // if we clicked a video link, start playing it
         if(action){
@@ -105,13 +116,16 @@ $(function() {
 
     function onFinish() {
 
-        // hide the video interface
-        $('#vimeoiframeId').fadeOut();
+        // kill the vimeo id
+        $('#vimeoiframeId').remove();
 
         // show and center the worlds frame
         $('.circle-big').fadeIn();
         $('.circle-big').center();
 
+        // rebuild it (hacking the vimeo api issues)
+        $('body').append('<div id="vimeoiframeId"><iframe></iframe></div>');
+        $('#vimeoiframeId').hide();
     }
 
 }); 
