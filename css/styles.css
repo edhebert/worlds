@@ -124,6 +124,6 @@ a:hover span {
     transform: rotate(330deg) translate(250px) rotate(-330deg); 
     -webkit-transform: rotate(330deg) translate(250px) rotate(-330deg);
     -moz-transform: rotate(330deg) translate(250px) rotate(-330deg);
-    background: url('../img/blue.png') center no-repeat;
+    background: url('../img/globe2.png') center no-repeat;
 
 }
