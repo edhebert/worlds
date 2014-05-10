@@ -127,3 +127,67 @@ a:hover span {
     background: url('../img/2b.png') center no-repeat;
 
 }
+
+.centered {
+    width: 70%;
+    margin: 0 auto;
+}
+
+article.accordion
+{
+    display: block;
+    width: 70%;
+    padding: 0.5em 0.5em 1px 0.5em;
+    margin: 0 auto;
+    background-color: #666;
+    border-radius: 5px;
+    box-shadow: 0 3px 3px rgba(0,0,0,0.3);
+}
+
+article.accordion section
+{
+    display: block;
+    width: 97%;
+    height: 2em;
+    padding: 0 1em;
+    margin: 0 0 0.5em 0;
+    color: #333;
+    background-color: #333;
+    overflow: hidden;
+    border-radius: 3px;
+}
+
+article.accordion section h2
+{
+    font-size: 1em;
+    font-weight: bold;
+    width: 100%;
+    line-height: 2em;
+    padding: 0;
+    margin: 0;
+    color: #ddd;
+}
+
+article.accordion section h2 a
+{
+    display: block;
+    width: 100%;
+    line-height: 2em;
+    text-decoration: none;
+    color: inherit;
+    outline: 0 none;
+}
+
+
+article.accordion section:target
+{
+    height: 15em;
+    background-color: #fff;
+}
+
+article.accordion section:target h2
+{
+    font-size: 1.6em;
+    color: #333;
+}
+
