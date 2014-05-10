@@ -128,6 +128,7 @@ a:hover span {
 
 }
 
+/* styling for the credits page */
 .centered {
     width: 70%;
     margin: 0 auto;
@@ -137,11 +138,7 @@ article.accordion
 {
     display: block;
     width: 70%;
-    padding: 0.5em 0.5em 1px 0.5em;
     margin: 0 auto;
-    background-color: #666;
-    border-radius: 5px;
-    box-shadow: 0 3px 3px rgba(0,0,0,0.3);
 }
 
 article.accordion section
@@ -153,6 +150,7 @@ article.accordion section
     margin: 0 0 0.5em 0;
     color: #333;
     background-color: #333;
+    opacity: 0.5;
     overflow: hidden;
     border-radius: 3px;
 }
@@ -181,7 +179,7 @@ article.accordion section h2 a
 
 article.accordion section:target
 {
-    height: 15em;
+    height: 100%;
     background-color: #fff;
 }
 
@@ -191,3 +189,12 @@ article.accordion section:target h2
     color: #333;
 }
 
+p
+{
+    font-size: 0.9em;
+}
+
+#star
+{
+    padding: 50px;
+}
