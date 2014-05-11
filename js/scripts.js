@@ -50,7 +50,7 @@ $(function() {
 
 
     // Call the API when a button is pressed
-    $('a').on('click', function(e) {
+    $('.circle-big a').on('click', function(e) {
 
         // prevent deafault click behavior
         e.preventDefault();
