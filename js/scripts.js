@@ -74,7 +74,7 @@ $(function() {
         f = $('#vimeoiframeId iframe');
 
         f.attr('id', currentIframeId);
-        f.attr('src', 'http://player.vimeo.com/video/' + currentvideoId + '?api=1&player_id='+ currentIframeId);
+        f.attr('src', 'https://player.vimeo.com/video/' + currentvideoId + '?api=1&player_id='+ currentIframeId);
 
         url = f.attr('src').split('?')[0],
         action = 'play',
